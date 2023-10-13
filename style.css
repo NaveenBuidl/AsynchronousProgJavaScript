@@ -1,0 +1,30 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* The height: 100vh; style sets the height of the .Main element to 100% of the viewport height, ensuring that its children can be centered vertically. */
+    height: 100vh; 
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#clickbutton-box {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    background-color: rgb(0, 115, 255);
+    color: whitesmoke
+}
+
+.time-box {
+    display: flex;
+    align-items: center; /* This will vertically align the items */
+    gap: 10px; /* This will add some space between the items */
+}
+
+/*
+#timeinput {
+    width: 50%;
+}
+*/
